@@ -6,4 +6,4 @@ public:
     vector<int> twoSum(vector<int>& nums, int target);
 }; 
  
-#endif   APP_H 
+#endif 
