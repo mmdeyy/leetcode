@@ -12,7 +12,7 @@ vector<int> Solution::twoSum(vector<int>& nums, int target)
               --j;
            }else if(nums[j]+nums[i]<target){
 			  ++i; 
-		   }else{
+		   }else if(nums[j]+nums[i]==target){
 			   result.push_back(i);
 			   result.push_back(j);
 			   return result;
