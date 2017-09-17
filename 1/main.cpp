@@ -4,13 +4,14 @@
 using namespace std;
 int main()
 {
-	Solution s();
+	
 	vector<int> nums(4);
 	nums.push_back(2);
 	nums.push_back(7);
 	nums.push_back(11);
 	nums.push_back(15);
    
+   Solution s = Solution();
 	int target = 9;
 	vector<int> result = s.twoSum(nums,target);
    
