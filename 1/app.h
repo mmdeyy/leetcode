@@ -2,6 +2,7 @@
 #define  APP_H 
              
 #include<vector>
+using namespace std;
 
 class Solution {
 public:
