@@ -1,10 +1,11 @@
 #include<iostream> 
+#include<vector>
 #include "app.h"
 using namespace std;
 int main()
 {
 	Solution s();
-	vector<int>& nums = new vector<int>();
+	vector<int>& nums = new vector();
 	nums.push_back(2);
 	nums.push_back(7);
 	nums.push_back(11);
